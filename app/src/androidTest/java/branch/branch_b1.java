@@ -3,11 +3,23 @@ package branch;
 public class branch_b1 {
     int id ;
     String course_name;
+    String name;
 
-    public branch_b1(int id, String course_name) {
+    public void setName(String name) {
+        this.name = name;
+    }
+
+
+    public String getName() {
+        return name;
+    }
+
+    public branch_b1(int id, String course_name, String name) {
         this.id = id;
         this.course_name = course_name;
+        this.name = name;
     }
+
 
     public int getId() {
         return id;
