@@ -4,6 +4,22 @@ public class branch_b1 {
     int id ;
     String course_name;
     int values;
+    double mark;
+
+    public branch_b1(int id, String course_name, int values, double mark) {
+        this.id = id;
+        this.course_name = course_name;
+        this.values = values;
+        this.mark = mark;
+    }
+
+    public double getMark() {
+        return mark;
+    }
+
+    public void setMark(double mark) {
+        this.mark = mark;
+    }
 
     public void setValues(int values) {
         this.values = values;
@@ -14,12 +30,6 @@ public class branch_b1 {
         return values;
     }
 
-
-    public branch_b1(int id, String course_name, int values) {
-        this.id = id;
-        this.course_name = course_name;
-        this.values = values;
-    }
 
 
     public int getId() {
