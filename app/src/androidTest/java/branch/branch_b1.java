@@ -3,6 +3,7 @@ package branch;
 public class branch_b1 {
     int id ;
     String course_name;
+ 
     int values;
     double mark;
 
@@ -28,10 +29,12 @@ public class branch_b1 {
 
     public int getValues() {
         return values;
+
     }
 
 
 
+ 
     public int getId() {
         return id;
     }
